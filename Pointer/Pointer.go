@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var a int = 20
+	var a = 20
 	var ip *int
 
 	ip = &a
