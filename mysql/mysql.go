@@ -13,7 +13,7 @@ import (
 var db = &sql.DB{}
 
 func init() {
-	db, _ = sql.Open("mysql", "root:root@/book")
+	db, _ = sql.Open("mysql", "root:root@/book") //user:password@tcp(localhost:5555)/dbname?tls=skip-verify&autocommit=true
 }
 
 func main() {
