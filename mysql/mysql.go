@@ -13,7 +13,8 @@ import (
 var db = &sql.DB{}
 
 func init() {
-	db, _ = sql.Open("mysql", "root:root@/book") //user:password@tcp(localhost:5555)/dbname?tls=skip-verify&autocommit=true
+	db, _ = sql.Open("mysql", "root:123456@tcp(127.0.0.1:3306)/go?tls=skip-verify&autocommit=true") //user:password@tcp(localhost:5555)/dbname?tls=skip-verify&autocommit=true
+
 }
 
 func main() {
@@ -21,7 +22,7 @@ func main() {
 	query()
 	update()
 	query()
-	delete()
+	//delete()
 }
 
 func update() {
