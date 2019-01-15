@@ -26,5 +26,12 @@
     "go.useLanguageServer": true,
     "html.format.endWithNewline": true,
     "html.format.indentInnerHtml": true,
+    "python.linting.flake8Path": "flake8",
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    "go.gocodePackageLookupMode": "go",
+    "go.gotoSymbol.includeImports": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "vsicons.associations.fileDefault.file": null,
   }
   
