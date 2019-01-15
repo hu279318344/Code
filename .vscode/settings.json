@@ -1,2 +1,30 @@
 {
-}
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "[markdown]": {
+      "editor.formatOnSave": true,
+      "editor.wordWrap": "on",
+      "editor.renderWhitespace": "all",
+      "editor.acceptSuggestionOnEnter": "off"
+    },
+    "go.autocompleteUnimportedPackages": true,
+    "go.coverOnSave": true,
+    "go.coverOnSingleTest": true,
+    "go.formatFlags": [],
+    "go.formatTool": "goreturns",
+    "go.buildFlags": [],
+    "go.alternateTools": {},
+    "go.gocodeAutoBuild": true,
+    "go.gopath": "E:\\GoPath",
+    "go.goroot": "C:\\Go",
+    "go.inferGopath": true,
+    "go.testOnSave": true,
+    "go.toolsGopath": "E:\\GoPath",
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.useLanguageServer": true,
+    "html.format.endWithNewline": true,
+    "html.format.indentInnerHtml": true,
+  }
+  
