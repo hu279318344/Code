@@ -5,6 +5,6 @@ import "os"
 
 func main() {
 	var JAVAHOME string
-	JAVAHOME = os.Getenv("JAVA_HOME")
-	fmt.Println(JAVAHOME)
+	JAVAHOME = os.Getenv("GOROOT")
+	fmt.Println(GOROOT)
 }
