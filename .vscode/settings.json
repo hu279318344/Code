@@ -1,37 +1,40 @@
 {
-    "[typescript]": {
-      "editor.formatOnSave": true,
-      "editor.formatOnPaste": true
-    },
-    "[markdown]": {
-      "editor.formatOnSave": true,
-      "editor.wordWrap": "on",
-      "editor.renderWhitespace": "all",
-      "editor.acceptSuggestionOnEnter": "off"
-    },
-    "go.autocompleteUnimportedPackages": true,
-    "go.coverOnSave": true,
-    "go.coverOnSingleTest": true,
-    "go.formatFlags": [],
-    "go.formatTool": "goreturns",
-    "go.buildFlags": [],
-    "go.alternateTools": {},
-    "go.gocodeAutoBuild": true,
-    "go.gopath": "E:\\GoPath",
-    "go.goroot": "C:\\Go",
-    "go.inferGopath": true,
-    "go.testOnSave": true,
-    "go.toolsGopath": "E:\\GoPath",
-    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
-    "go.useLanguageServer": true,
-    "html.format.endWithNewline": true,
-    "html.format.indentInnerHtml": true,
-    "python.linting.flake8Path": "flake8",
-    "python.linting.flake8Enabled": true,
-    "python.formatting.provider": "yapf",
-    "go.gocodePackageLookupMode": "go",
-    "go.gotoSymbol.includeImports": true,
-    "go.useCodeSnippetsOnFunctionSuggest": true,
-    "vsicons.associations.fileDefault.file": null,
-  }
-  
+  "files.autoSave": "off",
+  "go.buildOnSave": true,
+  "go.lintOnSave": true,
+  "go.vetOnSave": true,
+  "go.buildFlags": [],
+  "go.lintFlags": [],
+  "go.vetFlags": [],
+  "go.coverOnSave": false,
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  "go.formatOnSave": true,
+  "go.formatTool": "gofmt",
+  "workbench.iconTheme": "vscode-icons",
+  "go.goroot": "/usr/local/go",
+  "go.gopath": "/Volumes/Work/goProjects",
+  "team.showWelcomeMessage": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "azure",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.suggest.ionic": true,
+  "go.gocodeAutoBuild": true,
+  "go.inferGopath": true,
+  // prettier:每行在这个字符数内整合代码，如果你的屏幕较宽分辨率较高可以适当加大
+  "prettier.printWidth": 120,
+  // prettier:是否在每行末尾加上分号
+  "prettier.semi": false,
+  // prettier:如果为true，将使用单行否则使用双引号
+  "prettier.singleQuote": true,
+  // vetur:对html的内容使用js-beautify-html
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false
+}
